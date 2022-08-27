@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+/* Gainsboro":"d8dbe2",
+"Light Steel Blue":"a9bcd0",
+"Cadet Blue":"58a4b0"*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:  #a9bcd0;
+}
+.wrapper{
+    background-color: #d8dbe2;
+    padding: 1.5%;
+    margin: auto;
+    border-radius: 5%;
+}
+.wrapper h1{
+    color: #58a4b0;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: #58a4b0;
+    border: none;
+    margin: 0.5%;
+}
+.wrapper .content{
+    margin: 2.5% 0;
+}
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputs input{
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    background: none;
+    border-radius: 5px;
+    color: #58a4b0;
+    border: 1px solid #58a4b0;
+}
+.inputs input:first-child{
+margin-left: 0px;
+}
+.content .details{
+    margin: 20px 0;
+}
+.details p{
+ font-size: 19px;
+ margin-bottom:10px;    
+}
+.content .reset-btn{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #d8dbe2;
+    background-color: #58a4b0;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
